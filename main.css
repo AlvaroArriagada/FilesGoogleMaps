@@ -1,0 +1,58 @@
+/* Always set the map height explicitly to define the size of the div element that contains the map. */
+#map {
+	height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+	height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+#search-box {
+  background-color: #fff;
+  font-family: Roboto;
+	height: 30px;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 10px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 500px;
+}
+#search-box:focus {
+  border-color: #4d90fe;
+}
+#layer-selector {
+	width: 200px;
+  position: absolute;
+	font-size: 14px;
+  margin: 5px 10px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  font-family: 'Roboto','sans-serif';
+	font-weight: 300;
+	border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  height: 200px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+	color: #333;
+}
+.layer-list {
+	font-weight: bold;
+	margin-left: 5px;
+	color: #333;
+}
+.layer-input {
+	margin: 0 5px 10px 5px;
+}
